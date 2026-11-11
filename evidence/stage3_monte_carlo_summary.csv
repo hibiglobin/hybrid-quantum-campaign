@@ -1,0 +1,2 @@
+backend,seed,shots,success_shots,estimated_probability,exact_probability,absolute_error,standard_error
+NumPy PCG64,42,8192,5553,0.677856445312,0.677951471871,0.000095026558,0.005162958288

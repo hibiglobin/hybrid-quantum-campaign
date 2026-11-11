@@ -1,0 +1,37 @@
+{
+  "purpose": "Classical independent-Bernoulli Monte Carlo reference for Stage 3, separate from Aer",
+  "backend": "NumPy random Generator PCG64, not quantum hardware and not Qiskit Aer",
+  "seed": 42,
+  "shots": 8192,
+  "selected_ids_q0_to_q5": [
+    "C0081",
+    "C0079",
+    "C0031",
+    "C0327",
+    "C0374",
+    "C0222"
+  ],
+  "probabilities_q0_to_q5": [
+    0.8493520678,
+    0.7295664424,
+    0.7017450767,
+    0.2641117305,
+    0.2268685727,
+    0.1827347972
+  ],
+  "success_condition": "K >= 3",
+  "success_shots": 5553,
+  "estimated_probability": 0.6778564453125,
+  "exact_probability": 0.6779514718707461,
+  "signed_error": -9.502655824611406e-05,
+  "absolute_error": 9.502655824611406e-05,
+  "approximate_95pct_wilson_interval": [
+    0.6676557096348772,
+    0.6878904492855198
+  ],
+  "estimated_standard_error": 0.005162958288488498,
+  "limitations": [
+    "Sampling uncertainty only; model probability uncertainty and customer dependence not accounted for",
+    "Seed 42 here does not imply identical shot outcomes to Aer seed 42"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "model": "dicke_xy",
+  "depth_p": 3,
+  "optimized_gamma_beta_interleaved": [
+    1.2733878856421716,
+    0.22589004038547078,
+    -0.4131861325523957,
+    -0.6563138352767158,
+    1.3332176914503413,
+    0.5826065224878857
+  ],
+  "expected_objective": 34.056008366092634,
+  "optimal_solution_probability": 0.0037473899883157485,
+  "classical_exact_objective": 43.183204088500005,
+  "selected_optimum_bitstring": "0101001111",
+  "feasible_probability": 1.0,
+  "shots": 8192,
+  "optimization_seconds": 1.452,
+  "optimization_evaluations": 1401,
+  "chosen_start": "random_0",
+  "trial_metrics": [
+    {
+      "start": "previous_p3",
+      "expected_objective": 34.02728503201432,
+      "nfev": 1
+    },
+    {
+      "start": "random_0",
+      "expected_objective": 34.056008366092634,
+      "nfev": 350
+    },
+    {
+      "start": "random_1",
+      "expected_objective": 33.62388774050324,
+      "nfev": 350
+    },
+    {
+      "start": "random_2",
+      "expected_objective": 32.98266159811926,
+      "nfev": 350
+    },
+    {
+      "start": "random_3",
+      "expected_objective": 33.159439864589935,
+      "nfev": 350
+    }
+  ],
+  "state_preparation": "initialize(Dicke_10_6); excludes physical decomposition costs",
+  "shot_counts_source": "not_run",
+  "selected_from_two_independent_local_search_runs": true,
+  "search_run": "B:4starts350"
+}

@@ -1,0 +1,65 @@
+{
+  "model": "dicke_xy",
+  "depth_p": 7,
+  "optimized_gamma_beta_interleaved": [
+    0.6900997658656881,
+    0.2532386876025081,
+    0.9112464280090785,
+    -0.6433023604978743,
+    -0.13313837339272355,
+    0.8730292755672754,
+    -0.44676463133942246,
+    0.4992413938138967,
+    0.33552827231200744,
+    0.47001226963245246,
+    -0.5066986378666299,
+    0.2091574802333642,
+    0.12145849599419979,
+    0.04053938593922606
+  ],
+  "expected_objective": 37.84726151857027,
+  "optimal_solution_probability": 0.2291328906678221,
+  "classical_exact_objective": 43.183204088500005,
+  "selected_optimum_bitstring": "0101001111",
+  "feasible_probability": 1.0,
+  "shots": 8192,
+  "optimization_seconds": 1.258,
+  "optimization_evaluations": 876,
+  "chosen_start": "warm_perturb",
+  "trial_metrics": [
+    {
+      "start": "warm_identity",
+      "expected_objective": 37.471712186568965,
+      "nfev": 1
+    },
+    {
+      "start": "warm_optimize",
+      "expected_objective": 37.833208415515806,
+      "nfev": 175
+    },
+    {
+      "start": "warm_perturb",
+      "expected_objective": 37.84726151857027,
+      "nfev": 175
+    },
+    {
+      "start": "warm_perturb",
+      "expected_objective": 37.673165208534456,
+      "nfev": 175
+    },
+    {
+      "start": "random_0",
+      "expected_objective": 35.58481858096578,
+      "nfev": 175
+    },
+    {
+      "start": "random_1",
+      "expected_objective": 33.79832892757965,
+      "nfev": 175
+    }
+  ],
+  "state_preparation": "initialize(Dicke_10_6); excludes physical decomposition costs",
+  "shot_counts_source": "not_run",
+  "selected_from_two_independent_local_search_runs": true,
+  "search_run": "A:2starts175"
+}

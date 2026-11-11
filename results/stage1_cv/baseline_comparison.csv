@@ -1,0 +1,6 @@
+model,evaluation_protocol,PR_AUC,ROC_AUC,Brier,mean_top10_hits
+N16,aligned 3-fold x 1 seed 42,0.355313385588591,0.7257142857142856,0.09156783471472675,6
+N17 + Friend LR,aligned 3-fold x 1 seed 42,0.35565186852447656,0.7318598382749326,0.09135638684945363,6
+N17 + Friend Hybrid,aligned 3-fold x 1 seed 42,0.3572474287404358,0.7344474393530998,0.09110599005637407,6
+F2 (historical),historical 5-fold x 3 seeds,0.347,0.7062,,5.67
+F2 70% + friend LR 30% (historical),"historical repeated OOF, not aligned to N17",0.3606,0.711,,6.33

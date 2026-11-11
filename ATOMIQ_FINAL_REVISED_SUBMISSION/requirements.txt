@@ -1,0 +1,11 @@
+# Install in a fresh Python 3.11 environment. No external GitHub repository required.
+# qcampaign source is vendored within code/friend_atomiq/src.
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.0,<4
+scikit-learn>=1.3,<2
+joblib>=1.3,<2
+qiskit>=2.0,<3
+qiskit-aer>=0.15,<1
+qiskit-machine-learning>=0.9,<1
+matplotlib>=3.7,<4

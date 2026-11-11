@@ -1,0 +1,59 @@
+{
+  "model": "dicke_xy",
+  "depth_p": 4,
+  "optimized_gamma_beta_interleaved": [
+    0.7222731477945057,
+    0.24347412037223104,
+    0.8430074363629717,
+    -0.7052047512286673,
+    0.09763100548762291,
+    0.7970247260287222,
+    -0.7001573441237074,
+    0.47777834831277827
+  ],
+  "expected_objective": 35.52578404956932,
+  "optimal_solution_probability": 0.07037948621741937,
+  "classical_exact_objective": 43.183204088500005,
+  "selected_optimum_bitstring": "0101001111",
+  "feasible_probability": 1.0,
+  "shots": 8192,
+  "optimization_seconds": 0.989,
+  "optimization_evaluations": 876,
+  "chosen_start": "random_0",
+  "trial_metrics": [
+    {
+      "start": "warm_identity",
+      "expected_objective": 34.02728503201432,
+      "nfev": 1
+    },
+    {
+      "start": "warm_optimize",
+      "expected_objective": 34.57369655407563,
+      "nfev": 175
+    },
+    {
+      "start": "warm_perturb",
+      "expected_objective": 35.031567911971685,
+      "nfev": 175
+    },
+    {
+      "start": "warm_perturb",
+      "expected_objective": 34.03196196092766,
+      "nfev": 175
+    },
+    {
+      "start": "random_0",
+      "expected_objective": 35.52578404956932,
+      "nfev": 175
+    },
+    {
+      "start": "random_1",
+      "expected_objective": 33.424241395436496,
+      "nfev": 175
+    }
+  ],
+  "state_preparation": "initialize(Dicke_10_6); excludes physical decomposition costs",
+  "shot_counts_source": "not_run",
+  "selected_from_two_independent_local_search_runs": true,
+  "search_run": "A:2starts175"
+}
